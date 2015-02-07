@@ -1,0 +1,20 @@
+Type: Program Synthesis
+Given this simple question: How to read file line by line?
+
+Can we synthesis this code into the program from stackoverflow?
+http://stackoverflow.com/questions/5868369/how-to-read-a-large-text-file-line-by-line-using-java
+BufferedReader br = new BufferedReader(new FileReader(file));
+String line;
+while ((line = br.readLine()) != null) {
+   // process the line.
+}
+br.close();
+
+Type: Security 
+DroidSafe looks like very sound and precise, but can we improve its performance?
+It can not scale in those popular apps in Google Play, I bet.
+
+Type: Security
+Susi looks like mising 40% of src/sink according to DroidSafe's paper in NDSS15, what's the reason?
+
+
