@@ -1,0 +1,5 @@
+// 1. grep keyword. 2. filter out duplicate. 3. cut the first letter
+grep -o ",.*" reachableCM.txt | sort | uniq | cut -d "," -f 2
+
+// 1. grep keyword. 2. remain partial line.
+ grep unreach unreach.txt | grep -o "\.\*<.*" | grep -o "<.*"
