@@ -3,3 +3,6 @@ grep -o ",.*" reachableCM.txt | sort | uniq | cut -d "," -f 2
 
 // 1. grep keyword. 2. remain partial line.
  grep unreach unreach.txt | grep -o "\.\*<.*" | grep -o "<.*"
+
+// Display the top 10 largest files in current folder in human readable format.
+ du -hsx * | sort -rh | head -10
