@@ -6,3 +6,6 @@ grep -o ",.*" reachableCM.txt | sort | uniq | cut -d "," -f 2
 
 // Display the top 10 largest files in current folder in human readable format.
  du -hsx * | sort -rh | head -10
+
+// replace string with another string in file
+ sed -i 's/(.*)/()/g' inter.dot
