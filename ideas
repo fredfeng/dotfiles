@@ -17,4 +17,9 @@ It can not scale in those popular apps in Google Play, I bet.
 Type: Security
 Susi looks like mising 40% of src/sink according to DroidSafe's paper in NDSS15, what's the reason?
 
+Type: SE
+Recently I found that if I simply used the reachability of the lengthy operations as criterias to check Android performance bugs, it will generate several false positives.
+Under what condition that a lengthy operation(transitively invoked by main thread) will become an issue?
 
+Type: SE
+Can we encode the programs as a language model and use the similarity of two sentence to perform clone detection?
