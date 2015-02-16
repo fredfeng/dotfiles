@@ -23,3 +23,6 @@ Under what condition that a lengthy operation(transitively invoked by main threa
 
 Type: SE
 Can we encode the programs as a language model and use the similarity of two sentence to perform clone detection?
+
+Type: Mobile
+Saswat came up with the idea to refine an imprecise ICCG with minimum effort through the help of demand driven call graph + heuristic to rank the edges
