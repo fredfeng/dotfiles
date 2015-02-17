@@ -26,3 +26,9 @@ Can we encode the programs as a language model and use the similarity of two sen
 
 Type: Mobile
 Saswat came up with the idea to refine an imprecise ICCG with minimum effort through the help of demand driven call graph + heuristic to rank the edges
+
+Type: Program Synthesis
+If we replace all the reflections with unknow holes, can we recover them with normal function calls which are more friendly to program analysis?
+
+Same technique can be applied in security area. Those programs are performing a lot of obfuscation in all levels. Can we transform the whole program to a human readable version?
+
