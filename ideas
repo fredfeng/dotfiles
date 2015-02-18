@@ -29,6 +29,7 @@ Saswat came up with the idea to refine an imprecise ICCG with minimum effort thr
 
 Type: Program Synthesis
 If we replace all the reflections with unknow holes, can we recover them with normal function calls which are more friendly to program analysis?
+(Both isil and calvin said this idea is a crap, maybe.)
 
 Same technique can be applied in security area. Those programs are performing a lot of obfuscation in all levels. Can we transform the whole program to a human readable version?
 
