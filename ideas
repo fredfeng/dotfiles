@@ -33,3 +33,14 @@ If we replace all the reflections with unknow holes, can we recover them with no
 
 Same technique can be applied in security area. Those programs are performing a lot of obfuscation in all levels. Can we transform the whole program to a human readable version?
 
+
+Type: NLP
+Given a pseudo-description of the algorithm, can we generate the correct implementation?
+http://en.wikipedia.org/wiki/Dijkstra's_algorithm
+http://en.wikipedia.org/wiki/Quicksort
+
+Can we automatically generate regular expression based on the test of the question?
+
+Can we automatically solve complicated algebra problems based on the text of the question?
+
+Can we automatically generate type-state properties based on the description of the software?
