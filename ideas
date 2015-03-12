@@ -44,3 +44,9 @@ Can we automatically generate regular expression based on the test of the questi
 Can we automatically solve complicated algebra problems based on the text of the question?
 
 Can we automatically generate type-state properties based on the description of the software?
+
+Type: Security
+Can we translate the program into a language model and use it to do some classification like malware detection by families?
+
+Type: NLP
+Isil's idea: automatically Synthesis Web scraper based on input-output example. But I am a bit sick of the input-output style...
