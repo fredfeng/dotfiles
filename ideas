@@ -50,3 +50,21 @@ Can we translate the program into a language model and use it to do some classif
 
 Type: NLP
 Isil's idea: automatically Synthesis Web scraper based on input-output example. But I am a bit sick of the input-output style...
+
+Type: Android memory leak
+http://www.dailytech.com/Nasty+Memory+Leak+in+Android+Lollipops+Rendering+Engine+is+Killing+Apps/article37037.htm
+https://github.com/Elluel/android_frameworks_base/commit/e30ccdbeac2c53b04a389c7ffd8e9d500c93ef30
+I have dig a lot and find a memmory leak in system_server when screen on/off, how can I submmit a patch for frameworks/base/services/core/java/com/android/server/display/ColorFade.java?
+
+--- a/services/core/java/com/android/server/display/ColorFade.java
++++ b/services/core/java/com/android/server/display/ColorFade.java
+@@ -470,6 +470,7 @@ final class ColorFade {
+ 
+             st.updateTexImage();
+             st.getTransformMatrix(mTexMatrix);
++            st.release();
+ 
+             // Set up texture coordinates for a quad.
+             // We might need to change this if the texture ends up being
+
+only one paper: Testing of Memory Leak in Android Applications 
