@@ -68,3 +68,11 @@ I have dig a lot and find a memmory leak in system_server when screen on/off, ho
              // We might need to change this if the texture ends up being
 
 only one paper: Testing of Memory Leak in Android Applications 
+
+Type:NLP
+Program consolidation based on NLP.
+Consolidate the code from stackoverflow to IDE based on natural language.
+
+Type: Pointer analysis
+Can we implement a top-down parallel version of pointer analysis?
+Inspired by graphLab.
