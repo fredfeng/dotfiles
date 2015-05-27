@@ -68,6 +68,7 @@ I have dig a lot and find a memmory leak in system_server when screen on/off, ho
              // We might need to change this if the texture ends up being
 
 only one paper: Testing of Memory Leak in Android Applications 
+This is too hard for me.
 
 Type:NLP
 Program consolidation based on NLP.
@@ -76,3 +77,5 @@ Consolidate the code from stackoverflow to IDE based on natural language.
 Type: Pointer analysis
 Can we implement a top-down parallel version of pointer analysis?
 Inspired by graphLab. Someone did that before.
+
+For smartcontext, instead of relying on an off-line pre-analysis, isil asked whether we could do that online?
