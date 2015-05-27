@@ -75,4 +75,4 @@ Consolidate the code from stackoverflow to IDE based on natural language.
 
 Type: Pointer analysis
 Can we implement a top-down parallel version of pointer analysis?
-Inspired by graphLab.
+Inspired by graphLab. Someone did that before.
