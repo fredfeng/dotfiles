@@ -79,3 +79,5 @@ Can we implement a top-down parallel version of pointer analysis?
 Inspired by graphLab. Someone did that before.
 
 For smartcontext, instead of relying on an off-line pre-analysis, isil asked whether we could do that online?
+
+Using NLP as holes in program.
