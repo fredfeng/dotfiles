@@ -81,3 +81,8 @@ Inspired by graphLab. Someone did that before.
 For smartcontext, instead of relying on an off-line pre-analysis, isil asked whether we could do that online?
 
 Using NLP as holes in program.
+1. Collect code and build a database for corpus;
+2. Study the patterns from large corpus;
+3. Synthesize statement from comment;
+4. Issue query and get a set of candidate;
+5. Prune candidates based on types or input-output examples.
