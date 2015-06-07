@@ -86,3 +86,5 @@ Using NLP as holes in program.
 3. Synthesize statement from comment;
 4. Issue query and get a set of candidate;
 5. Prune candidates based on types or input-output examples.
+
+Complete linkage clustering sounds like a good idea.
